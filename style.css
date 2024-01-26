@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Balsamiq Sans', system-ui, sans-serif;
+}
+
+/* utility classes start */
+body {
+  padding-bottom: 50rem;
+}
+
+.container {
+  width: 960px;
+  margin-inline: auto;
+  border: 1px black;
+}
+
+.img-block {
+  display: block;
+  max-width: 100%;
+}
+
+.icon {
+  width: 32px;
+}
+
+div.justify-start,
+ul.justify-start {
+  justify-content: flex-start;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gap {
+  gap: 1.5rem;
+}
+
+.gap-sm {
+  gap: 0.5rem;
+}
+
+.circle {
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid black;
+  aspect-ratio: 1;
+}
+
+.mb {
+  margin-bottom: 1.5rem;
+}
+
+button {
+  font-size: inherit;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.36rem;
+  border: 0;
+  background-color: white;
+  cursor: pointer;
+}
+
+.border {
+  border: 3px solid black;
+}
+
+.btn-accent {
+  background-color: #2b79e4;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #cf2a27;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #ff9901;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+select {
+  display: block;
+  padding: 0.3rem;
+  border: 3px solid black;
+  border-radius: 0.36rem;
+}
+
+.border-top {
+  border-top: 3px solid rgb(176, 176, 176);
+}
+/* utility classes end */
+
+/* header classes start */
+.action-header {
+  background-color: #999999;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 24px;
+}
+
+.brand {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+input[type='text'] {
+  padding: 0.3rem;
+  min-width: 36ch;
+  border: 3px solid black;
+}
+
+.search-btn {
+  background-color: #ff9901;
+  padding: 0.2rem 0.75rem;
+  border: 3px solid black;
+  box-shadow: 3px 3px black;
+  cursor: pointer;
+}
+
+.main-header {
+  padding-top: 4rem;
+  padding-bottom: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+}
+
+.nav-link {
+  color: rgb(50, 50, 50);
+  text-decoration: none;
+}
+
+.active {
+  color: #cf2a27;
+  text-decoration: underline;
+}
+/* header classes end */
+
+/* main classes start */
+main {
+  flex: 3;
+}
+/* main classes end */
+
+/* aside classes start */
+aside {
+  flex: 2;
+  align-self: flex-start;
+}
+
+.list {
+  margin-left: 20px;
+  margin-bottom: 1rem;
+}
+/* aside classes end */
+
+/* card classes start */
+
+.card-header {
+  background-color: #cf2a27;
+  color: white;
+  padding: 5px 20px;
+  border: 3px solid black;
+}
+
+.card-body {
+  border-right: 3px solid rgb(176, 176, 176);
+  border-bottom: 3px solid rgb(176, 176, 176);
+  border-left: 3px solid rgb(176, 176, 176);
+  padding: 20px;
+}
+/* card classes end */
+
+.arrow {
+  width: 32px;
+}
+
+.votes {
+  text-align: center;
+  padding-right: 20px;
+  align-self: flex-start;
+}
